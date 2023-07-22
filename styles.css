@@ -4,8 +4,14 @@
 }
 
 .star {
+            display: inline-block;
+            width: 1em;
+            height: 1em;
+            stroke-width: 0;
+            stroke: EEA10C;
+            fill: EEA10C;
     /* background-color: #EEA10C; */
-    fill: #EEA10C;
+    /* fill: #EEA10C; */
     width: 18px;
 
 }
@@ -16,5 +22,5 @@
 .star[data-rating="4"],
 .star[data-rating="5"] {
    
-    filter: grayscale(0);
+    /* filter: grayscale(0); */
 }
