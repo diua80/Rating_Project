@@ -1,0 +1,19 @@
+.rating-container {
+  
+    align-items: center;
+}
+
+.star {
+    fill: #EEA10C;
+    width: 18px;
+
+}
+
+.star[data-rating="1"],
+.star[data-rating="2"],
+.star[data-rating="3"],
+.star[data-rating="4"],
+.star[data-rating="5"] {
+   
+    filter: grayscale(0);
+}
