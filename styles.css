@@ -4,12 +4,7 @@
 }
 
 .star {
-            display: inline-block;
-            width: 1em;
-            height: 1em;
-            stroke-width: 0;
-            stroke: EEA10C;
-            fill: EEA10C;
+    fill: EEA10C;
     /* background-color: #EEA10C; */
     /* fill: #EEA10C; */
     width: 18px;
